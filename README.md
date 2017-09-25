@@ -1,2 +1,3 @@
-# C++ Primer Plus
-C++ Primer Plus  Tutorial
+C++ Primer Plus
+
+C++ Primer Plus Tutorial
