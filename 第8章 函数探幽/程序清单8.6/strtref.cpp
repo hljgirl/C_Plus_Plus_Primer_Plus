@@ -96,5 +96,6 @@ free_throws & accumulate(free_throws & target, const free_throws & source)
 	target.attempts += source.attempts;
 	target.made += source.made;
 	set_pc(target);
+	
 	return target;
 }
