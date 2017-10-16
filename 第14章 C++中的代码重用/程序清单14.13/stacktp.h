@@ -1,14 +1,13 @@
 #pragma once
-#ifndef STACK_H_
-#define STACK_H_
+#ifndef STACKTP_H_
+#define STACKTP_H_
 
-typedef unsigned long Item;
 
-class Stack
+template <class T> class Stack
 {
 private:
 	enum { MAX = 10 };
-	Item item[MAX];
+	T item[MAX];
 	int top;
 
 public:
@@ -17,8 +16,8 @@ public:
 
 	bool isempty() const;
 	bool isfull() const;
-	bool push(const Item& it);
-	bool pop(Item& it);
+	bool push(const T& it);
+	bool pop(T& it);
 };
 
 
